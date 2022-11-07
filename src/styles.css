@@ -1,0 +1,386 @@
+* {
+    box-sizing: border-box;
+} 
+
+body{
+    margin:0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav{
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 2.4rem 1.8rem;
+    /* border-bottom: 2px solid rebeccapurple; */
+}
+
+.site-name{
+    font-size: 2rem;
+}
+
+.nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav a{
+    /* color: black; */
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.25rem ;
+}
+
+.nav a.contact{
+    color: white;
+    padding: .5rem 1rem;
+    height: 2.8rem;
+}
+.nav li.active{
+    text-decoration: underline;
+    line-height: 2px ;
+    text-underline-position: below;
+    text-underline-offset: 1rem;
+    /* padding-bottom: 3px; */
+}
+
+.hover:hover {
+    background-color: silver;
+    /* border-radius: 2%; */
+    padding: 4px;
+}
+.contact{
+    background-color: black;
+    color: white;
+}
+
+.fa-brands{
+    pointer-events: none;
+}
+
+.svg:hover{
+    scale: 1.5;
+    transition-duration: .2s;
+    /* transition: ease-out; */
+}
+
+.container{
+    margin:0;
+    align-items: center;
+}
+
+.myself{
+    height: 400;
+    width: 390; 
+    display: "flex"; 
+    align-items: "center"
+}
+
+.touch{
+    align-items: center;
+}
+
+.home{
+    display: flex;
+    background-color: rgb(240, 240, 240);
+    padding-bottom: 20;
+    margin-left:60px;
+    margin-top:40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    gap: 20px;
+    box-shadow:inset;
+    /* border: 2.5px solid black */
+    ;border-radius: 1%;
+    height: 660px;
+}
+.my-img{
+    height:320px;
+    width: 390px; 
+    border-radius: 3%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.img-wrapper{
+    margin-left: 50px;
+}
+
+.description{
+    color: black;
+    font-size: large;
+    margin-top: 50px;
+    margin-left: 100px;
+    text-align: left;
+    line-height: 1.7;
+    /* text-overflow: ;
+    whi */
+    /* white-space: wrap; */
+
+    width: 80vh;
+}
+
+/* styles for resume */
+/*color pallete:
+#f7fff7 : almost white
+#343434 : dark grey - almost black
+#2F3061 : blue dark
+#FFE66D : yellow
+*/
+
+/* Global styles 
+----------------------------------*/
+/*add in all projects as a convention*/
+html{
+    box-sizing: border-box;
+}
+*, *.before, *.after{
+    box-sizing: inherit;
+} */
+
+/* body {
+    color: #343434;
+    margin: 0;  /* to remove the space from the extreme ends; also a convetion or base css*/
+/*    padding: 0; /* convention */ 
+    /* font-family: 'Monserrat', sans-serif; */
+    /* font-size: 16px; */
+    /* line-height: 1.3; */
+/* } 
+*/
+
+a{
+    color:#FFE66D;
+}
+a:hover{
+    text-decoration:none;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h1{
+    font-size: 100px;
+    line-height: 1.15;
+}
+h1, h2{
+    font-family: "Caveat", cursive;
+    font-weight: 400;     /* alternate way to remove the bold; 700 is for bold */
+    margin: 0; /*to remove the extra space between the h2 heading and the previous section*/
+}
+.content-wrap{
+    max-width: 900px; /*when the viewport is smaller than the max value, it becomes the same as the container*/
+    width: 85% /*when the viewport is smaller than the max-width valye, it will apply the width value leaving some space for the edges*/;
+    margin: 0 auto;  /* top and bottom, left and right  */
+    padding: 40px 0; /*adding paadding to the container to remove the margins between the top and bottom of different sections. it pushed all the content inwards*/
+}
+
+h3{
+    margin-bottom: 0;
+}
+.item-details h3 + p { /*combinator willmatch to only the first paragraph that comes after the h4 heading*/
+    font-style: italic;
+}
+
+.item-details h3 ~ p {
+    margin: 0;
+}
+
+.divider > section{
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0; /*pushing the img away from the text*/
+}
+
+.divider > section:last-of-type{
+    border-bottom: none;
+}
+
+/* Profile  
+----------------------------------*/
+header {
+    /* background-color: inherit; */
+    /* color: #F7FFF7; */
+    /* color: white; */
+}
+
+/* Projects
+----------------------------------*/
+.projects{
+    background-color: black;
+    color: white;
+}
+.projects .btn{
+    color: darkblue;
+    text-decoration: none;
+    padding: 8px;
+    background-color: pink;
+    border-radius: 4px;
+    display: inline-block; /*inline blocks down't align with each other and the button is now inside the padding space.*/
+}
+
+.projects a{
+    color: darkblue;
+}
+.projects .btn:hover{
+    background: rgba(47, 48, 49, 80%);
+}
+
+.project-item{
+    /* use overflow in the parent itself when there's no element to apply the clear to. it's like self clear.  */
+    overflow: hidden; /*since this is the parent element of the img element which is floated therefore the hidden/self clear property is applied here*/
+}
+
+
+/* Work Experience
+----------------------------------*/
+.work-experience{
+    background: black;
+    color:white
+}
+
+
+
+footer ul {
+    margin: 0 -20px;
+    /* to move the bullest a tad to the left */
+}
+
+.projects {
+    /* background-image: url(../images/twitter_87e20faecee933e80c732ec905e7c830.jpeg); */
+    background-size: cover;
+    background-position: bottom right;
+    background-color: black;
+    color: white
+}
+
+.education{
+    /* background-image: url(../images/34b98b7ee3aede35ad56675ecf7636be.webp); */
+    background-color:  rgb(27, 26, 26);
+    color: white
+
+}
+/* Contact informaation
+----------------------------------*/
+footer{
+    color: #F7FFF7;
+    background: black;
+    /* background:  rgb(27, 26, 26); */
+}
+
+footer ul li a{
+    text-decoration: none;
+    color:rgb(126, 104, 130)
+}
+
+.flex-container{
+    list-style-type: none; /*to remove the bullets*/
+    padding: 0; /*to space out content*/
+    
+}
+
+.flex-container a{
+    padding: 15px; /*for spacing out the items and adding more area for clicking so helps in accesibility*/
+    display: inline-block; /*adjust postion horizontally and vertically accordingly*/
+}
+
+/* Responsive changes
+----------------------------------*/
+@media screen and (min-width: 750px){ /*will defaul to "all"*/
+
+    header, footer{
+        text-align: center; /*center align the text*/
+    }
+    /*no need to override the float and the float will only apply when the viewport 750px or larger otherwise the pic will be in one column*/
+    .project-item img {
+        float: left; /*to allow the image to float around the text and wrap it properly*/
+        /*use clear:both to clear any unwanted elements lying beside the flaoted element*/
+        margin-right: 20px;
+      
+    }
+
+    .job-item{
+        display: grid;
+        grid-template-columns: 1fr 2fr; /*fr makes the columns flexible and 1fr so first cloumns is smaller than the second*/
+        column-gap: 20px;
+    }
+
+    .flex-container{
+        display:flex; /*intiate the flex box layout*/
+    justify-content: center;
+    }
+
+
+}
+
+@media screen and (max-width: 749px){ /*will defaul to "all"*/  
+    h1{
+        font-size: 75px;
+        line-height: 0.9;
+        margin-bottom: 20px;
+    }
+    h2{
+        line-height: 1;
+    }
+
+    .flex-container a{
+        padding: 5px;
+    }
+}
+/*Projects*/
+.project-container{
+    box-sizing: border-box;
+} 
+
+.proj-intro{
+    padding-left: 10px;
+    padding-right: 2px;
+    display: flex;
+    /* background-color:; */
+    line-height: 1.7;
+}
+.intro-to-proj{
+    color: black;
+    font-size: large;
+    margin-top: 50px;
+    margin-left: 100px;
+    text-align: left;
+    line-height: 1.7;
+    /* white-space: wrap; */
+    width: 80vh;
+}
+
+.projects-listing{
+    overflow: auto;
+    line-height: 1.7;
+}
+.proj-name{
+    font-family: 'Times New Roman', Times, serif;
+}
+.proj-item{
+    display:flex;
+    gap: 20px;
+    /* background-color: red; */
+    /* padding-right: 8px; */
+    /* padding: 10px; */
+    display: block;
+    /* border: 0.2px solid black; */
+    border-radius: 2%;
+    /* background-color: gray; */
+    /* width: 50vh; */
+}
+
+.parent-grid{
+    padding: 40px;
+}
+.proj-div{
+    text-align: center;
+}
