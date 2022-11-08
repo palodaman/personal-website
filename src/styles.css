@@ -4,7 +4,6 @@
 
 body{
     margin:0;
-    /* font-family: Arial, Helvetica, sans-serif; */
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -16,7 +15,6 @@ body{
     align-items: stretch;
     gap: 2rem;
     padding: 2.4rem 1.8rem;
-    /* border-bottom: 2px solid rebeccapurple; */
 }
 
 .site-name{
@@ -131,23 +129,16 @@ body{
     /* width: 80vh; */
 }
 
-/* styles for resume */
-/*color pallete:
-#f7fff7 : almost white
-#343434 : dark grey - almost black
-#2F3061 : blue dark
-#FFE66D : yellow
-*/
+
 
 /* Global styles 
 ----------------------------------*/
-/*add in all projects as a convention*/
 html{
     box-sizing: border-box;
 }
 *, *.before, *.after{
     box-sizing: inherit;
-} */
+} 
 
 /* body {
     color: #343434;
