@@ -1,46 +1,38 @@
-import * as React from 'react';
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
-import Modal from '@mui/material/Modal';
-
-const style = {
-  position: 'absolute',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
-  width: 400,
-  bgcolor: 'background.paper',
-  border: '2px solid #000',
-  boxShadow: 24,
-  p: 4,
-};
-
-export default function BasicModal() {
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
-
+export default function Misc(){
   return (
-    <div>
-      <Button onClick={handleOpen}>My Contact Card </Button>
-      <Modal
-        open={open}
-        onClose={handleClose}
-        aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description"
-      >
-        <Box sx={style}>
-          <Typography id="modal-modal-title" variant="h6" component="h2">
-            <p> </p>Aman Palod
-          </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            <b>E-Mail</b> :    palod.aman@gmail.com
-            <br/>
-            <p> <b>Cell</b> &nbsp;&nbsp;&nbsp;&nbsp;: 2348827691 </p>
-          </Typography>
-        </Box>
-      </Modal>
+    <>
+  <div style={{lineHeight: '1.7'}}>
+    <h2 style={{textAlign:'center', fontFamily:'Times New Roman'}}> My Reading List</h2>
+
+    <div style={{padding:'40px 70px ', textAlign:'center', }}>
+        I try to keep myself off the radar of social media to be able to tend to my more fulfilling proclivities, like reading. Reading, I believe, is a free source of entertainment that edifies your mind. I mostly read while commuting or before going to bed.
+
+    </div >
+    <ol style={{padding:"0 50px", marginLeft:"60px"}}>
+      <li> Dune, by Frank Herbert</li>
+      <li> Tuesdays with Morrie, by Mitch Albom </li>
+      <li> Stories of Your Life and Others, by Ed Chiang</li>
+      <li> To kill a Mockingbird, by </li>
+      <li> Dracula, by Stoker</li>
+      <li> Frankenstein, by Mary shelby</li>
+      <li> Fahrenheit 431, by</li>
+      <li> Never Let Me Go, by Kazuo Ishiguro</li>
+      
+      <li> The Animal Farm, by</li>
+     
+      <li> A hundred years, by</li>
+      <li> The Hunger Games trilogy, by </li>
+      <li> Bluest Eye, by</li>
+      <li> The Fifth Season, by NK Jemisin</li>
+      
+
+      <li> Don't be Evil, by </li>
+      <li> Sapiens, by Yuval Noah Harari</li>
+      <li>
+        The Harry Potter series, by J.K. Rowling
+      </li>
+    </ol>
     </div>
+    </>
   );
 }

@@ -17,6 +17,8 @@ export default function Home(){
              Hi! I am a third year software engineering student at the University of Victoria. This portfolio website is the very testament of my fascination and fervour for web development. 
           </p>
           <p>Whenever I am not programming, I am usually reading, jamming with my ukulele, lost online in the depths of technical documentation and tech conferences, or spending some recreational time in the nature. Special mention to restocking the costly groceries (plight of an international student)</p>
+          <p>Whenever I am not programming, I am usually reading, jamming with my ukulele, lost online in the depths of technical documentation and tech conferences, or spending some recreational time in the nature. Special mention to restocking the costly groceries (plight of an international student)</p>
+          
           <p></p>
         </div>    
 
