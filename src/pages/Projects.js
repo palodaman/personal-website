@@ -35,7 +35,7 @@ export default function Projects(){
                 </div>
             
                 <div className="intro-to-proj">
-                    <p>I am a budding Software Engineer and therefore most of my projects pertain to Front end development, back end development. I like to tinker with my projects and implement them again using different libraries and frameworks. </p>
+                    <p>I am a budding Software Engineer and therefore most of my projects pertain to web development. I like to get to exposure to varioustinker with my projects and implement them again using different libraries and frameworks. </p>
                     <p>Recently I got exposed to the utility of APIs in our everyday apps and I was blown away with the idea. I think it's a really cool way to build reactive apps with the magic of APIs and I have tried to incorporate the same in my latest project.</p>
                     <p> I am looking forward to work more with graphQL APIs and the MERN stack</p>
                 </div>  
@@ -95,7 +95,7 @@ export default function Projects(){
                     <ul>
                         <li>Designed and coded a self autonomous robot in engineering design class which move based on its sensing of white and black squares on a 15 by 15 sheet.  </li>
                         <li>Brainstormed the running algorithm for two axes with two team members resulting in a nice team building activity </li>
-                        <li> adsfefefe</li>
+
                     </ul>
                     </Item>  
                 </Grid>
