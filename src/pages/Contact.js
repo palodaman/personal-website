@@ -51,7 +51,7 @@ export default function Contact() {
         {/* <Grid container justify="space-between">   */}
         <Box sx={{display:'flex', justifyContent:'space-between', marginBottom:'42px'}}>
         <Typography id="modal-modal-title" variant="h6" component="h2" align="left" fontSize={15}>
-            2368827691 
+            +1 2368827691 
           </Typography>
           <Typography id="modal-modal-title" variant="h6" component="h2" align="left" fontSize={15}>
               palod.aman@gmail.com

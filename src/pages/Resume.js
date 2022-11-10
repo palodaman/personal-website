@@ -90,7 +90,7 @@ export default function Resume(){
       <section className="projects">
         <div className="content-wrap divider">
             <h2>Featured Projects</h2>
-            <p>View selected projects below. More information can be found at <a style={{color:'rebeccapurple/projects'}} href="aman-palod.netlify.app" target="_blank">amanpalod.com</a>.</p>
+            <p>View selected projects below. More information can be found at <a style={{color:'rebeccapurple'}} href="aman-palod.netlify.app" target="_blank">amanpalod.com</a>.</p>
              {/* <!-- _blank attr opens the link in a new tab. href = #some_id redirects the click to an element on the page with that id --> */}
              {/* <!-- Copy the whole <section> block to add more projects. --> */}
             <section className="project-item">
