@@ -8,7 +8,7 @@ export default function Misc(){
         <p>
         I try to keep myself off the radar of social media to be able to tend to my more fulfilling proclivities, like reading. Reading, I believe, is a free source of entertainment that edifies your mind. I mostly read while commuting or before going to bed.
           </p>
-        <p>Following is a list of books, in no particular order, that I have read in 2022, and they have been amazing reads.</p>
+        <p>Following is a list of books, in no particular order, that I have read and/or re-read in 2022, and they have been amazing reads.</p>
     </div >
     <ol style={{padding:"0 50px", marginLeft:"60px"}}>
       <li> Dune, by Frank Herbert</li>

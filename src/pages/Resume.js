@@ -157,7 +157,7 @@ export default function Resume(){
             <ul className="flex-container">
               <li><a href="mailto:palod.aman@gmail.com">palod.aman@gmail.com</a></li>
               <li><a> +1 2368827691</a></li>
-              <li><a href="http://localhost:3000" target="_blank">My website</a></li>
+              <li><a href="https://aman-palod.netlify.app" target="_blank">My website</a></li>
              
               <li><a href="https://www.linkedin.com/in/aman-palod-3a09911b4/" target="_blank">LinkedIn</a></li>
             {/* <!-- A hash - `#` within a hyperlink specifies an HTML element id to which the window should be scrolled. */}
