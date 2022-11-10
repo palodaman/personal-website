@@ -37,7 +37,7 @@ export default function Resume(){
                 <ul>
                   <li>Creating and maintaining Power BI dashboards and reports for the analysis of data for parts with different PIDs</li>
                   <li>Testing of boat parts, returned under warranty, and finding potential bugs in the firmware to ascertain if a credit could processed back to the customer</li>
-                  <li>Implementing multiple featuers in MS Access Waranty forms using Visual Basic Language</li>
+                  <li>Implementing multiple features in MS Access Warranty forms using Visual Basic Language</li>
                 </ul>
   
               </div>
@@ -99,7 +99,7 @@ export default function Resume(){
               <ul>
               <li>Built an interface to pull user information from the github api through Graphql query</li>
               <li> Desgined the interactivity of the interface using React</li>
-              <li> Handled styling using the Bootstrap library</li>
+              <li> Handled the styling using the Bootstrap library</li>
               </ul>
             
             </section>
@@ -107,10 +107,10 @@ export default function Resume(){
             <section className="project-item">
               <h3>Personal Website</h3>
               <ul>
-              <li>Built my personal website from scratch using React </li>
+              <li>Designed and built a personal website from scratch using React </li>
               <li> Implemented react routing to prevent a page refresh every time after a component is loaded </li>
-              <li> Made the website modular and responsive for different screen sizes</li>
-
+              <li>Used Git version control and implemented continuous delivery using Netlify to automatically build upon a new
+release.</li>
               </ul>
         
               </section>

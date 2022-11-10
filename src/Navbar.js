@@ -16,7 +16,7 @@ export default function Navbar(){
                 
          
           <Customlink to="/projects" className="hover"> Projects</Customlink>
-          <Customlink to="/miscellaneous" className="hover"> Misc</Customlink>
+          <Customlink to="/miscellaneous" className="hover"> Misc.</Customlink>
           <Customlink to="/resume" className="hover"> Resume</Customlink>
           {/* <Customlink to="/contact" className="contact"> Contact</Customlink>
            */}
