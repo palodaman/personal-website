@@ -36,7 +36,7 @@ export default function Resume(){
                 {/* <!-- <p>Optional list:</p> --> */}
                 <ul>
                   <li>Creating and maintaining Power BI dashboards and reports for the analysis of data for parts with different PIDs</li>
-                  <li>Testing of boat parts returned under warranty to defined if a credit could processed back to the customer</li>
+                  <li>Testing of boat parts, returned under warranty, and finding potential bugs in the firmware to ascertain if a credit could processed back to the customer</li>
                   <li>Implementing multiple featuers in MS Access Waranty forms using Visual Basic Language</li>
                 </ul>
   
@@ -76,7 +76,7 @@ export default function Resume(){
   {/* <!-- <p>Job summary goes here. Add as many paragraphs as you need.</p> --> */}
   {/* <!-- <p>Optional list:</p> --> */}
   <ul>
-    <li>Graded assignments and papers of over 150 students in the course</li>
+    <li>Graded assignments and papers of over 150 students in the Engineering Economics course</li>
     <li>Researched and prepared pre-lecture readings for the students</li>
     <li>Reinforced the material presented by the teacher with students one-on-one and solved doubts</li>
   </ul>
@@ -90,25 +90,37 @@ export default function Resume(){
       <section className="projects">
         <div className="content-wrap divider">
             <h2>Featured Projects</h2>
-            <p>View selected projects below. More information can be found at <a href="#" target="_blank">amanpalod.com</a>.</p>
+            <p>View selected projects below. More information can be found at <a style={{color:'rebeccapurple/projects'}} href="aman-palod.netlify.app" target="_blank">amanpalod.com</a>.</p>
              {/* <!-- _blank attr opens the link in a new tab. href = #some_id redirects the click to an element on the page with that id --> */}
              {/* <!-- Copy the whole <section> block to add more projects. --> */}
             <section className="project-item">
               <h3>React graphQL</h3> 
               {/* <!-- everything follwong the floating image would be to the left of it--> */}
-              <p>Built an interface to pull user information from the github api through graphql query</p>
-              <a href="#footer" className="btn">View project / case study</a>
+              <ul>
+              <li>Built an interface to pull user information from the github api through Graphql query</li>
+              <li> Desgined the interactivity of the interface using React</li>
+              <li> Handled styling using the Bootstrap library</li>
+              </ul>
+            
             </section>
 
             <section className="project-item">
-              <h3>Hangaroo Game</h3>
-              <p>Built the classic Hangaroo game using various hooks in React </p>
-              <p></p>
+              <h3>Personal Website</h3>
+              <ul>
+              <li>Built my personal website from scratch using React </li>
+              <li> Implemented react routing to prevent a page refresh every time after a component is loaded </li>
+              <li> Made the website modular and responsive for different screen sizes</li>
+
+              </ul>
+        
               </section>
 
             <section className="project-item">
               <h3>Todo's List</h3>
-              <p>The stepping stone in any developer's journey, developed a todo's list, first in javascript and then in React to as a good way to get started in web development </p>
+              <ul>
+              <li>Developed a todo's list, the stepping stone in any developer's journey, first in javascript and then in React to as a good way to get started in web development </li>
+           
+              </ul>
             </section>
 
 
@@ -144,9 +156,10 @@ export default function Resume(){
             {/* <!-- Social media and contact links. Add or remove any networks. --> */}
             <ul className="flex-container">
               <li><a href="mailto:palod.aman@gmail.com">palod.aman@gmail.com</a></li>
+              <li><a> +1 2368827691</a></li>
               <li><a href="http://localhost:3000" target="_blank">My website</a></li>
-              <li><a href="#" target="_blank">Twitter</a></li>
-              <li><a href="#" target="_blank">LinkedIn</a></li>
+             
+              <li><a href="https://www.linkedin.com/in/aman-palod-3a09911b4/" target="_blank">LinkedIn</a></li>
             {/* <!-- A hash - `#` within a hyperlink specifies an HTML element id to which the window should be scrolled. */}
             {/* code guide is a good guide for css about rules and conventions for writing sustainable code --> */}
             {/* <!-- target attr is used to decide where the website will open (whether in same tab or a new tab) target="_blank" = new tab --> */}

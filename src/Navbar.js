@@ -31,7 +31,7 @@ export default function Navbar(){
             </li>
             </Tooltip>
             <li className="linkedin svg" >                    
-                <a target="_blank" href="https://linkedin.com/AmanPalod" >   <i className="fa-brands fa-linkedin fa-xl"></i> </a> 
+                <a target="_blank" href="https://www.linkedin.com/in/aman-palod-3a09911b4/" >   <i className="fa-brands fa-linkedin fa-xl"></i> </a> 
             </li>
 
             </ul>

@@ -35,9 +35,9 @@ export default function Projects(){
                 </div>
             
                 <div className="intro-to-proj">
-                    <p>I am a budding Software Engineer and therefore most of my projects pertain to web development. I like to get to exposure to varioustinker with my projects and implement them again using different libraries and frameworks. </p>
-                    <p>Recently I got exposed to the utility of APIs in our everyday apps and I was blown away with the idea. I think it's a really cool way to build reactive apps with the magic of APIs and I have tried to incorporate the same in my latest project.</p>
-                    <p> I am looking forward to work more with graphQL APIs and the MERN stack</p>
+                    <p>I like to get hands-on experience on various technology stacks through building my projects, which mostly pertain to web development. </p>
+                    <p>Through my recent projects, I have acquired a decent understanding of HTML, CSS, JS, React, and GraphQL APIs. Also, I think APIs are really cool. APIs make collaboration across cross platforms way simpler and I was blown away by that.</p>
+                    <p> My next goal is to get into full stack development and beyond, something I am very excited about. I would also like to explore machine learning and neural networks.</p>
                 </div>  
             </section>
 
@@ -52,10 +52,10 @@ export default function Projects(){
                         <h3 className="proj-name"> React Graph QL query</h3>
                     </div>
                     <ul>
-                        <li> This project was an attempt at using and learning the graph QL Api  and React</li>
-                        <li> GraphQL gives you a clean way to query complex server data efficiently from GitHub API using GraphiQL</li>
+                        <li> Desgined a clean way to to query complex github user server data efficiently from GitHub API using GraphiQL</li>
                              {/* Making use of the github API, the interface allows you to pull information of github users such as their repositories and whatever else </li> */}
-                        <li> Some of the styling was handled using the powerful Bootstrap library</li>
+                        <li> Impletmented the functionality/state of the interface using React</li>
+                        <li> Handled the styling using the powerful Bootstrap library</li>
                     </ul>
                     </Item>  
                 </Grid>
@@ -63,12 +63,11 @@ export default function Projects(){
                 <Grid item xs={6} className="proj-item" alignItems="left">
                     <Item>
                     <div className="proj-div">
-                        <h3 className="proj-name"> React's Hangaroo game</h3>
+                        <h3 className="proj-name"> Hangman game in React</h3>
                     </div>
                     <ul>
-                        <li> This project was an attempt at using and learning the graph QL Api  </li>
-                        <li> Making use of the github API, the interface allows you to pull information of github users such as their repositories and whatever else </li>
-                        <li> Some of the styling was handled using the powerful Bootstrap library</li>
+                        <li> Chose this project as it was the perfect beginner React project since it was easy enough logic-wise, but still includeed many complicated problems to solve</li>
+                        <li> Involed handling the state of the interface</li>
                     </ul>
                     </Item>
                    
@@ -77,13 +76,12 @@ export default function Projects(){
                 <Grid item xs={6} className="proj-item">
                   <Item>
                   <div className="proj-div">
-                        <h3 className="proj-name"> React's Hangaroo game</h3>
+                        <h3 className="proj-name"> Snake Game using Turtle Graphics</h3>
                     </div>
                     <ul>
-                        <li> This project was an attempt at using and learning the graph QL Api  </li>
-                        <li> Making use of the github API, the interface allows you to pull information of github users such as their repositories and whatever else </li>
-                        <li> Some of the styling was handled using the powerful Bootstrap library</li>
-                    </ul>
+                <li>Used the turtle graphics library of Python to build the classic snake game</li>
+                <li>Devised the game loop such that the game could reset after getting over </li>
+                </ul>
                   </Item>
                 </Grid>
 
@@ -93,8 +91,8 @@ export default function Projects(){
                         <h3 className="proj-name"> Autonomous Sanitizing Robot</h3>
                     </div>
                     <ul>
-                        <li>Designed and coded a self autonomous robot in engineering design class which move based on its sensing of white and black squares on a 15 by 15 sheet.  </li>
-                        <li>Brainstormed the running algorithm for two axes with two team members resulting in a nice team building activity </li>
+                        <li>Designed a self autonomous robot using TinkerCAD, in my Engineering Design class, which could move based on its sensing of white and black squares on a 15 by 15 sheet  </li>
+                        <li>Developed the algorithm to allow the robot to run on two axes, with two team members resulting in a nice team building activity overall </li>
 
                     </ul>
                     </Item>  
