@@ -36,8 +36,8 @@ export default function Projects(){
             
                 <div className="intro-to-proj">
                     <p>I like to get hands-on experience on various technology stacks through building my projects, which mostly pertain to web development. </p>
-                    <p>Through my recent projects, I have acquired a decent understanding of HTML, CSS, JS, React, and GraphQL APIs. Also, I think APIs are really cool. APIs make collaboration across cross platforms way simpler and I was blown away by that.</p>
-                    <p> My next goal is to get into full stack development and beyond, something I am very excited about. I would also like to explore machine learning and neural networks.</p>
+                    <p>Through my recent projects, I have acquired a decent understanding of HTML, CSS, JS, MERN stack, and GraphQL APIs. Also, I think APIs are really cool. APIs make cross platform collaboration way simpler and I was blown away by that.</p>
+                    <p> I am exploring backend development further as it usually consists of many tricky moving pieces. I would also like to explore machine learning and neural networks.</p>
                 </div>  
             </section>
 
@@ -45,14 +45,26 @@ export default function Projects(){
             <section className="projects-listing">
             <Box sx={{ width: '100%' }}>
             <Grid disableEqualOverflow className="parent-grid" container rowSpacing={2} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-              
+
+            <Grid item xs={6} className="proj-item" alignItems="left">
+                    <Item>
+                    <div className="proj-div">
+                        <h3 className="proj-name"> Full Stack Blog Site</h3>
+                    </div>
+                    <ul>
+                        <li> Used the MERN stack to build a full stack blog website featuring user authentication, server and mongo database hosting, and multiple server endpoints</li>
+                        <li> Deployed the website to Google cloud, which was promptly taken down after success to avoid any monetary payments</li>
+                    </ul>
+                    </Item>
+                   
+                </Grid>
                 <Grid item xs={6} className="proj-item">
                   <Item>
                   <div className="proj-div" style={{display:'inline'}}>
                         <h3 className="proj-name"> React Graph QL query</h3>
                     </div>
                     <ul>
-                        <li> Desgined a clean way to to query complex github user server data efficiently from GitHub API using GraphiQL</li>
+                        <li> Designed a clean way to to query complex github user server data efficiently from GitHub API using GraphiQL</li>
                              {/* Making use of the github API, the interface allows you to pull information of github users such as their repositories and whatever else </li> */}
                         <li> Impletmented the functionality/state of the interface using React</li>
                         <li> Handled the styling using the powerful Bootstrap library</li>
