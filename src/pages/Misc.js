@@ -6,7 +6,7 @@ export default function Misc(){
 
     <div style={{padding:'40px 70px ', textAlign:'center', }}>
         <p>
-        I try to keep myself off the radar of social media to be able to tend to my more fulfilling proclivities, like reading. Reading, I believe, is a free source of entertainment that edifies your mind. I mostly read while commuting or before going to bed.
+        I try to keep myself off the radar of social media to be able to tend to my more fulfilling proclivities, like reading. Reading, I believe, is a free source of entertainment, good for edification of your mind. I mostly read while commuting or before going to bed.
           I got myself an e-reader recently and it has been a game changer for me. Reading has become more convenient and accessible. </p>
         <p>Following is a list of books, in no particular order, that I have read and/or re-read in 2022, and they have been amazing reads.</p>
     </div >
@@ -28,6 +28,13 @@ export default function Misc(){
       <li> The Animal Farm, by George Orwell</li>
      
       <li> 1984, by George Orwell</li>
+      <li> Project Hail Mary by Andy Weir </li>
+      <li> A Scanner Darkly by Philip K. Dick</li>
+      <li> A Hitchhiker's Guide to the Galaxy by Douglas Adams</li>
+      <li> The Restaurant at the end of the Galaxy by Douglas Adams</li>
+      <li> the Talented Mr. Ripley</li>
+      <li> Mexican Gothic by Sylvia Garcia</li>
+
       <li> The Hunger Games trilogy, by Suzzane Collins</li>
       <li> The Bluest Eye, by Toni Morrison</li>
   

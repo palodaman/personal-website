@@ -35,8 +35,8 @@ export default function Resume(){
                 {/* <!-- <p>Job summary goes here. Add as many paragraphs as you need.</p> --> */}
                 {/* <!-- <p>Optional list:</p> --> */}
                 <ul>
-                  <li>Creating and maintaining Power BI dashboards and reports for the analysis of data for parts with different PIDs</li>
-                  <li>Testing of boat parts, returned under warranty, and finding potential bugs in the firmware to ascertain if a credit could processed back to the customer</li>
+                  <li>Creating and maintaining Power BI dashboards and reports for quality analysis of manufactured machining parts after rigorous cleaning of data</li>
+                  <li>Testing returned boat parts under warranty and finding potential bugs in the firmware to ascertain if a credit could be processed back to the customer</li>
                   <li>Implementing multiple features in MS Access Warranty forms using Visual Basic Language</li>
                 </ul>
   
