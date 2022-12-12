@@ -32,7 +32,7 @@ export default function Misc(){
       <li> A Scanner Darkly by Philip K. Dick</li>
       <li> A Hitchhiker's Guide to the Galaxy by Douglas Adams</li>
       <li> The Restaurant at the end of the Galaxy by Douglas Adams</li>
-      <li> the Talented Mr. Ripley</li>
+      <li> The Talented Mr. Ripley by Anthony Minghella</li>
       <li> Mexican Gothic by Sylvia Garcia</li>
 
       <li> The Hunger Games trilogy, by Suzzane Collins</li>

@@ -36,7 +36,7 @@ export default function Resume(){
                 {/* <!-- <p>Optional list:</p> --> */}
                 <ul>
                   <li>Creating and maintaining Power BI dashboards and reports for quality analysis of manufactured machining parts after rigorous cleaning of data</li>
-                  <li>Testing returned boat parts under warranty and finding potential bugs in the firmware to ascertain if a credit could be processed back to the customer</li>
+                  <li>Testing warrantable boat parts such as actuators, helms, joysticks to find potential bugs in the firmware to ascertain if a credit could be processed back to the customer</li>
                   <li>Implementing multiple features in MS Access Warranty forms using Visual Basic Language</li>
                 </ul>
   
