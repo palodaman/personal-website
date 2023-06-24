@@ -1,4 +1,3 @@
-import { Box, Flex, VStack } from "@chakra-ui/react";
 
 export default function Home(){
     return (

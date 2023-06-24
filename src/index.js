@@ -5,7 +5,7 @@ import "./styles.css";
 import {BrowserRouter} from "react-router-dom"
 import { createTheme } from '@mui/material';
 import { ThemeProvider } from '@emotion/react';
-// import { ChakraProvider } from "@chakra-ui/react";
+import { ChakraProvider } from "@chakra-ui/react";
 
   const theme = createTheme({
     typography: {
@@ -26,7 +26,7 @@ root.render(
     {/*  wrapping the entire app with the browser router as it would be using a single router to manage all the routing */}
     <BrowserRouter> 
      <ThemeProvider theme={theme}>
-
+      
       <App />
       </ThemeProvider>
     </BrowserRouter>

@@ -25,7 +25,7 @@ export default function Navbar(){
                 <a target="_blank" href="https://github.com/palodaman" >   <i className="fa-brands fa-github fa-xl"></i> </a> 
             </li>
 
-            <Tooltip TransitionComponent={Zoom} title="add me @zulfi#1461"> 
+            <Tooltip TransitionComponent={Zoom} title="add me @zulfiii"> 
             <li className="twitter svg" >    
                 <a target="_blank" href="https://discord.com" >   <i className="fa-brands fa-discord fa-xl"></i> </a> 
             </li>
