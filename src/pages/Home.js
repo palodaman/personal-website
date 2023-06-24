@@ -5,9 +5,9 @@ export default function Home(){
         {/* div for image */}
         <div className="img-container-home" > 
             <figure>
-            <img src="/pics/jam.jpg" className="my-img"  alt="Pic of a code monkey" /> 
+            <img src="/pics/IMG-6231.HEIC" className="my-img"  alt="Pic of a code monkey" /> 
             <figcaption className="img-wrapper">
-                <em> pic by Navansh Yadav, clicked during one of our jamming sessions</em>
+                <em> </em>
             </figcaption>
             </figure>
         </div>
