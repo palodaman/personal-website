@@ -5,7 +5,7 @@ export default function Home(){
         {/* div for image */}
         <div className="img-container-home" > 
             <figure>
-            <img src="/pics/IMG-6231.HEIC" className="my-img"  alt="Pic of a code monkey" /> 
+            <img src="/pics/pic.jpg" className="my-img"  alt="Pic of a code monkey" /> 
             <figcaption className="img-wrapper">
                 <em> </em>
             </figcaption>
