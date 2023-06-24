@@ -6,12 +6,14 @@ export default function Misc(){
 
     <div style={{padding:'40px 70px ', textAlign:'center', }}>
         <p>
-        I try to keep myself off the radar of social media to be able to tend to my more fulfilling proclivities, like reading. Reading, I believe, is a free source of entertainment, good for edification of your mind. I mostly read while commuting or before going to bed.
+        I try to keep myself off the radar of social media to be able to tend to my more fulfilling proclivities, like reading. I mostly read while commuting, traveling or before going to bed.
           I got myself an e-reader recently and it has been a game changer for me. Reading has become more convenient and accessible. </p>
-        <p>Following is a list of books, in no particular order, that I have read and/or re-read in 2022, and they have been amazing reads.</p>
+        <p>Following is a list of books, in no particular order, that I have read and/or re-read since 2022, and they have been amazing reads.</p>
     </div >
     <ol style={{padding:"0 50px", marginLeft:"60px"}}>
       <li> Dune, by Frank Herbert</li>
+      <li> The Three Body Problem Trilogy, by Cizin Liu</li>
+      <li> Dune Messiah, by Framk Herbert</li>
       <li> Tuesdays with Morrie, by Mitch Albom </li>
       <li> Stories of Your Life and Others, by Ed Chiang</li>
       <li>
