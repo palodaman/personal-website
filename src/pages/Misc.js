@@ -12,7 +12,7 @@ export default function Misc(){
     </div >
     <ol style={{padding:"0 50px", marginLeft:"60px"}}>
       <li> Hyperion, by Dan Simmons </li>
-      <li> Hyperion, by Dan Simmons </li>
+      <li> The Fall of Hyperion, by Dan Simmons </li>
       <li> Dune, by Frank Herbert</li>
       <li> Dune Messiah, by Frank Herbert </li>
       <li> The Three Body Problem Trilogy, by Cixin Liu</li>
