@@ -11,24 +11,20 @@ export default function Misc(){
         <p>Following is a list of books, in no particular order, that I have read and/or re-read since 2022, and they have been amazing reads.</p>
     </div >
     <ol style={{padding:"0 50px", marginLeft:"60px"}}>
+      <li> Hyperion, by Dan Simmons </li>
+      <li> Hyperion, by Dan Simmons </li>
       <li> Dune, by Frank Herbert</li>
-      <li> The Three Body Problem Trilogy, by Cizin Liu</li>
-      <li> Dune Messiah, by Framk Herbert</li>
+      <li> Dune Messiah, by Frank Herbert </li>
+      <li> The Three Body Problem Trilogy, by Cixin Liu</li>
       <li> Tuesdays with Morrie, by Mitch Albom </li>
       <li> Stories of Your Life and Others, by Ed Chiang</li>
-      <li>
-        The Palace of Illusions, by Chitra Banerjee
-      </li>
+      <li>The Palace of Illusions, by Chitra Banerjee</li>
       <li> To kill a Mockingbird, by Harper Lee </li>
       <li> Dracula, by Bram Stoker</li>
       <li> The Fifth Season, by NK Jemisin</li>
-      
-     
       <li> Fahrenheit 451, by Ray Bradbury</li>
       <li> Never Let Me Go, by Kazuo Ishiguro</li>
-      
       <li> The Animal Farm, by George Orwell</li>
-     
       <li> 1984, by George Orwell</li>
       <li> Project Hail Mary by Andy Weir </li>
       <li> A Scanner Darkly by Philip K. Dick</li>
@@ -36,14 +32,11 @@ export default function Misc(){
       <li> The Restaurant at the end of the Galaxy by Douglas Adams</li>
       <li> The Talented Mr. Ripley by Anthony Minghella</li>
       <li> Mexican Gothic by Sylvia Garcia</li>
-
       <li> The Hunger Games trilogy, by Suzzane Collins</li>
       <li> The Bluest Eye, by Toni Morrison</li>
-  
       <li> Frankenstein, by Mary Shelby</li>
       <li> Don't Be Evil, by Rana Foroohar</li>
       <li> Sapiens, by Yuval Noah Harari</li>
-    
     </ol>
     </div>
     </>
