@@ -49,6 +49,19 @@ export default function Projects(){
             <Grid item xs={6} className="proj-item" alignItems="left">
                     <Item>
                     <div className="proj-div">
+                        <h3 className="proj-name"> Pantry Pal</h3>
+                    </div>
+                    <ul>
+                        <li> A web app to track pantry items and help reduce food waste with recipe recommendations</li>
+                        <li> Enabled pagination and filtering for the recipe options in the returned results based on dietary requirements</li>
+                    </ul>
+                    </Item>
+                   
+                </Grid>
+
+            <Grid item xs={6} className="proj-item" alignItems="left">
+                    <Item>
+                    <div className="proj-div">
                         <h3 className="proj-name"> Full Stack Blog Site</h3>
                     </div>
                     <ul>
@@ -58,6 +71,7 @@ export default function Projects(){
                     </Item>
                    
                 </Grid>
+
                 <Grid item xs={6} className="proj-item">
                   <Item>
                   <div className="proj-div" style={{display:'inline'}}>
