@@ -20,17 +20,43 @@ export default function Resume(){
         <div className="content-wrap item-details divider">
 
             <h2>Work Experience</h2>
-            {/* <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p> */}
-
-            {/* <!-- Copy this whole <section> block to add more jobs. --> */}
-          
-            {/* <!-- End of Job block. --> */}
             {/* <!-- job 1--> */}
+            <section className="job-item">
+
+            <div className="job-details"><h3>Communication Assistant</h3>
+              <p>University of Victoria</p>
+              <p>Sep 2023 - Apr 2024</p></div>
+            <div className="job-summary">
+              <ul>
+                <li>Assist the International Centre for Students in coordinating and delivering diverse programs, events, and initiatives
+targeted at international students</li>
+                <li>Utilize social media tools and video editing software, including InDesign, to create engaging content</li>
+                <li>Manage and curate content for the ICS’s social media channels, using Canva Pro, ensuring consistent brand
+messaging and effective student outreach</li>
+              </ul>
+            </div>
+            </section>
+
+            <section className="job-item">
+
+              <div className="job-details"><h3>Data Engineer </h3>
+                <p>Ingrooves Music Group</p>
+                <p>May 2023 - Aug 2023</p></div>
+              <div className="job-summary">
+                <ul>
+                  <li>Developed and maintained data pipelines from retailers such as Spotify, Apple Music, Deezer, and more</li>
+                  <li>Built a Rancher API to automatically update the cron job schedules and reset it to original time</li>
+                  <li>Built a Gitlab crawler API to keep track of the in-house dataplatform tools used across different projects</li>
+                </ul>
+
+              </div>
+              </section>
+
             <section className="job-item">
 
               <div className="job-details"><h3>Quality Engineer </h3>
                 <p>Dometic</p>
-                <p>Sept 2022 - Dec 2022</p></div>
+                <p>Sep 2022 - Dec 2022</p></div>
               <div className="job-summary">
                 {/* <!-- <p>Job summary goes here. Add as many paragraphs as you need.</p> --> */}
                 {/* <!-- <p>Optional list:</p> --> */}
@@ -50,7 +76,7 @@ export default function Resume(){
               <div className="job-details"> 
                 <h3>Techncial Support </h3>
                 <p>BC Children's Hospital</p>
-                <p>Jan 2022 - April 2022</p>
+                <p>Jan 2022 - Apr 2022</p>
               </div>
             
               <div className="job-summary">
@@ -90,7 +116,7 @@ export default function Resume(){
       <section className="projects">
         <div className="content-wrap divider">
             <h2>Featured Projects</h2>
-            <p>View selected projects below. More information can be found at <a style={{color:'rebeccapurple'}} href="aman-palod.netlify.app" target="_blank">amanpalod.com</a>.</p>
+            <p>View selected projects below. More information can be found at <a style={{color:'rebeccapurple'}} href="amanpalod.netlify.app" target="_blank">amanpalod.com</a>.</p>
              {/* <!-- _blank attr opens the link in a new tab. href = #some_id redirects the click to an element on the page with that id --> */}
              {/* <!-- Copy the whole <section> block to add more projects. --> */}
             <section className="project-item">
@@ -103,6 +129,16 @@ export default function Resume(){
               </ul>
             
             </section>
+
+            <section className="project-item">
+              <h3>Pantry Pal</h3>
+              <ul>
+              <li>A web app to track pantry items and help reduce food waste with recipe recommendations </li>
+              <li>Enabled pagination and filtering for the recipe options in the returned results based on dietary requirements </li>
+              </ul>
+        
+              </section>
+
 
             <section className="project-item">
               <h3>Personal Website</h3>
@@ -122,8 +158,6 @@ release.</li>
            
               </ul>
             </section>
-
-
 
       </div>
         {/* <!-- End of Project block. --> */}
@@ -157,7 +191,7 @@ release.</li>
             <ul className="flex-container">
               <li><a href="mailto:palod.aman@gmail.com">palod.aman@gmail.com</a></li>
               <li><a> +1 2368827691</a></li>
-              <li><a href="https://aman-palod.netlify.app" target="_blank">My website</a></li>
+              <li><a href="https://amanpalod.netlify.app" target="_blank">My website</a></li>
              
               <li><a href="https://www.linkedin.com/in/aman-palod-3a09911b4/" target="_blank">LinkedIn</a></li>
             {/* <!-- A hash - `#` within a hyperlink specifies an HTML element id to which the window should be scrolled. */}
